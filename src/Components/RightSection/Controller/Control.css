@@ -1,0 +1,70 @@
+.control {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 2;
+  padding: 20px 10px 20px 25px;
+  background-color: rgb(219, 251, 218);
+  border-radius: 15px;
+  gap: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.controllers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.eachControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row;
+  background-color: transparent;
+  padding: 20px 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20.5px 2px #c4c0c0;
+  border: 2px solid transparent;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  /* box-shadow: 3px 3px 20.5px 2px #c4c0c0; */
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+  transform: translateY(-2px);
+}
+
+.on {
+  color: rgb(0, 0, 0);
+  background-color: rgb(69, 229, 117);
+}
+.off {
+  color: rgb(255, 255, 255);
+  background-color: rgb(253, 0, 0);
+}

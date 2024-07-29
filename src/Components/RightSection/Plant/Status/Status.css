@@ -1,0 +1,48 @@
+.status {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 2;
+  padding: 20px 10px 20px 25px;
+  background-color: rgb(219, 251, 218);
+  border-radius: 15px;
+  gap: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: row;
+}
+
+.eachCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 20px 20px;
+  width: 230px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20.5px 2px #c4c0c0;
+  border: 2px solid transparent;
+}
+
+.eachCard img {
+  width: 100px;
+  height: 70px;
+}

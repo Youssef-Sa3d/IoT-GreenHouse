@@ -1,0 +1,39 @@
+.details {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: rgb(243, 243, 243); */
+  flex: 1;
+  padding: 20px 10px 20px 25px;
+  background-color: rgb(219, 251, 218);
+  border-radius: 15px;
+}
+
+.sec {
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

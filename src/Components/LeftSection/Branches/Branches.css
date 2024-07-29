@@ -1,0 +1,42 @@
+.branches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color:  transparent;
+  width: 75%;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  padding: 20px 10px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+a {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a p {
+  margin-top: 7px;
+  font-size: 20px;
+}
+.selected p,
+.branchIcon {
+    color: rgb(255, 255, 255);
+}
+
