@@ -5,7 +5,7 @@ import plant from '../../../Assets/pngwing.com.png'
 function PlantDetails() {
     let d = 225;
     let y = 0;
-    const [name, setName] = useState("Zar3a")
+    const [name, setName] = useState("shagra")
     const [years, setYears] = useState(y)
     const [days, setDays] = useState(d)
     const [status, setStatus] = useState("Good")
